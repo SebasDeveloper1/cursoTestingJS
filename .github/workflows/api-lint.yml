@@ -1,11 +1,11 @@
-name: API CI
+name: API LINT
 
 #on: [push]
 on:
   push:
     paths:
       - "./api/**"
-      - ".github/workflows/api-ci.yml"
+      - ".github/workflows/api-lint.yml"
 
 
 defaults:
